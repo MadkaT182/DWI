@@ -5,4 +5,4 @@ A theme based on the DWI simulator by SimWolf, I've made it for some nostalgia o
 
 The DWI announcer (djDraftHorse) can be downloaded from here - http://www.mediafire.com/download/acci9j07971ifg6/DWI.rar
 
-Thanks to SimWolf for the original DWI, and to AJ187 from some metrics of his SM4 theme.
+Thanks to SimWolf for the original DWI, and to AJ187 from some metrics of his SM4 theme. Also to my friend Jose Varela for some graphics/coding help and ideas.
