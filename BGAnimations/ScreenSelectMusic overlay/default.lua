@@ -78,7 +78,7 @@ local function Radar()
 
 	local t = Def.GrooveRadar {
 		OnCommand=cmd();
-		OffCommand=cmd(linear,0.6;rotationz,180*4;zoom,0);
+		OffCommand=cmd();
 		CurrentStepsP1ChangedMessageCommand=function(self) set(self, PLAYER_1); end;
 		CurrentStepsP2ChangedMessageCommand=function(self) set(self, PLAYER_2); end;
 		CurrentTrailP1ChangedMessageCommand=function(self) set(self, PLAYER_1); end;
@@ -132,7 +132,7 @@ local t = Def.ActorFrame {
 
 	--Sort display
 	LoadActor("SortDisplay")..{
-		InitCommand=cmd(x,SCREEN_RIGHT-10;y,SCREEN_BOTTOM-34);
+		InitCommand=cmd(x,SCREEN_RIGHT-20;y,SCREEN_BOTTOM-35);
 		Condition=not GAMESTATE:IsCourseMode();
 	};
 
