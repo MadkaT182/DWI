@@ -1,6 +1,6 @@
 return Def.ActorFrame {
 	LoadFont("Common normal") .. {
-		BeginCommand=cmd(horizalign,right;zoom,.56;diffuse,color("#7e7e7e");playcommand,"Update");
+		BeginCommand=cmd(horizalign,right;zoom,.5;diffuse,color("#7e7e7e");playcommand,"Update");
 		UpdateCommand=function(self)
 			local so = GAMESTATE:GetSortOrder();
 			if so ~= nil then
